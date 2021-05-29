@@ -18,7 +18,8 @@
       "@pokemon/services": ["libs/services/src/index.ts"],
       "@pokemon/data": ["libs/data/src/index.ts"],
       "@pokemon/api": ["libs/api/src/index.ts"],
-      "@pokemon/models": ["libs/models/src/index.ts"]
+      "@pokemon/models": ["libs/models/src/index.ts"],
+      "@pokemon/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

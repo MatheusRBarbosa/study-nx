@@ -1,8 +1,7 @@
 <h1>Pokemons</h1>
 
+<div class="pokemon-list">
+    <pokemon-card *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></pokemon-card>
+</div>
 
-<ul>
-    <li *ngFor="let pokemon of pokemons">{{ pokemon.name }}</li>
-</ul>
-
-<button (click)="getPokemon()">Add Todo</button>
+<pokemon-button text="Carregar pokemon" (click)="getPokemon()"></pokemon-button>

@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/data',
     '<rootDir>/libs/api',
     '<rootDir>/libs/models',
+    '<rootDir>/libs/ui',
   ],
 };
