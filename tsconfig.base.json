@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@pokemon/services": ["libs/services/src/index.ts"],
+      "@pokemon/data": ["libs/data/src/index.ts"],
+      "@pokemon/api": ["libs/api/src/index.ts"],
+      "@pokemon/models": ["libs/models/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
