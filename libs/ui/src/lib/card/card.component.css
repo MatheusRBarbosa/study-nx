@@ -1,13 +1,20 @@
 .card {
- background: white;
- width: 150px;
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- border-radius: 10px;
- margin: 10px;
- box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
- font-weight: bold;
- text-transform: capitalize;
+    background: white;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    font-weight: bold;
+    text-transform: capitalize;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
