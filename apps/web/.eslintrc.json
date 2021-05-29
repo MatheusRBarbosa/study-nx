@@ -16,7 +16,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "nx",
+            "prefix": "pokemon",
             "style": "camelCase"
           }
         ],
@@ -24,7 +24,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "nx",
+            "prefix": "pokemon",
             "style": "kebab-case"
           }
         ]
