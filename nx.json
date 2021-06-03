@@ -34,6 +34,13 @@
     },
     "ui": {
       "tags": []
+    },
+    "app": {
+      "tags": []
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
     }
   }
 }
