@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:host {
+  font-family: 'Josefin Sans', sans-serif;
+  min-width: 75em;
+  max-width: 75em;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ion-title {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+pokemon-button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 75em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.fade-in {
+    -webkit-animation: fadein 2s;
+}
+  
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

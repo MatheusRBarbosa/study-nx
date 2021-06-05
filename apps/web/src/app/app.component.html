@@ -1,7 +1,7 @@
 <h1>Pokemons</h1>
 
 <div class="pokemon-list">
-    <pokemon-card class="fade-in" *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></pokemon-card>
+    <pokemon-card class="fade-in" *ngFor="let pokemon of pokemonComponent.pokemons" [pokemon]="pokemon"></pokemon-card>
 </div>
 
-<pokemon-button text="Carregar Pokemon" (click)="getPokemon()"></pokemon-button>
+<pokemon-button text="Carregar Pokemon" (click)="pokemonComponent.getPokemon()"></pokemon-button>

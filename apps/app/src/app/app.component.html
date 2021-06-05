@@ -1,3 +1,16 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-content>
+    <ion-header translucent>
+      <ion-toolbar>
+        <ion-title ce>Pokemons</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <div class="pokemon-list">
+      <pokemon-card class="fade-in" *ngFor="let pokemon of pokemonComponent.pokemons" [pokemon]="pokemon">
+      </pokemon-card>
+    </div>
+
+    <pokemon-button text="Carregar Pokemon" (click)="pokemonComponent.getPokemon()"></pokemon-button>
+  </ion-content>
 </ion-app>
